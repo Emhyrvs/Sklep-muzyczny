@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <title>MUSIC WORD</title>
+        <script src="jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+        <div class="grid-container">
+            <header class="header">
+                <div class="brand">
+                    <button onclick="openMenu()">
+                        &#9776
+                    </button>
+<a href="index.html">MUSIC WORD</a>
+                </div>
+<div class="header-links">
+    
+    <a href="cart.html">Cart</a>
+    <a href="singnin.html">Sing in</a>
+
+                </div>
+                
+            </header>
+            <aside class="sidebar">
+                <h3>Shopping Categories</h3>
+                <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+                <ul>
+                    <li>
+                        <a href="index.html">Pop</a>
+
+                    </li>
+                    <li>
+                        <a href="index.html">Rock</a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="main">
+                <div class="content">
+                <ul class="products">
+                    <li>
+                    <div class="product">
+                        <img src="images/d1.jpg" alt="product"/>
+                        <div class="album-name">Kill them All</div>
+                        <div class="band-name">Mettalica</div>
+                        <div class=" ">10-10-1991</div>
+                        <div class="price">20$</div>
+                        <div class="count">100</div>
+                    </div>
+                    
+
+                </li>
+                <li>
+                    <div class="product">
+                        <img src="images/d1.jpg" alt="product"/>
+                        <div class="album-name">Kill them All</div>
+                        <div class="band-name">Mettalica</div>
+                        <div class=" ">10-10-1991</div>
+                        <div class="price">20$</div>
+                        <div class="count">100</div>
+                    </div>
+                    
+
+                </li>
+                <li>
+                    <div class="product">
+                        <img src="images/d1.jpg" alt="product"/>
+                        <div class="album-name">Kill them All</div>
+                        <div class="band-name">Mettalica</div>
+                        <div class=" ">10-10-1991</div>
+                        <div class="price">20$</div>
+                        <div class="count">100</div>
+                    </div>
+                    
+
+                </li>
+                </ul>
+            </div>
+            </main>
+            <footer class="footer">
+                All rigth reserved @copy
+            </footer>
+        </div>
+        <script>
+            function openMenu()
+            {
+                
+                document.querySelector(".sidebar").classList.add("open");
+                
+            }
+            function closeMenu()
+            {
+                document.querySelector(".sidebar").classList.remove("open");
+            }
+        </script>
+    </body>
+</html>
